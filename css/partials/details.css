@@ -1,0 +1,159 @@
+.detailsMain {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 90vh;
+}
+.donationExampleImg {
+  height: 75px;
+}
+.donationExample__Divider,
+.amountDivider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  text-align: center;
+  background-color: lightblue;
+  padding: 15px 15px;
+}
+.paymentMethod {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  text-align: center;
+  background-color: lightblue;
+  padding: 15px 15px;
+  max-width: 900px;
+}
+.donationExample__Divider--organisation {
+  width: 400px;
+}
+.formDiv {
+  margin-top: 15px;
+  background-color: lightblue;
+  width: 90%;
+  padding: 15px 15px;
+  min-height: 300px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  border-radius: 75px;
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+}
+.accountForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.donationExample__Divider--money {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.donationAmountInput {
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 1.5rem;
+  border: none;
+}
+.amountNumber {
+  background-color: white;
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  text-align: center;
+  padding: 5px 0px;
+}
+.underline {
+  text-decoration: underline;
+}
+.donationDiv {
+  width: 70%;
+}
+.error {
+  color: black;
+  font-size: 1.4rem;
+  width: 100%;
+  background-color: rgb(255, 89, 89);
+  border-radius: 0px 0px 5px 5px;
+}
+.hide {
+  display: none;
+}
+label {
+  display: block;
+  font-size: 1.2rem;
+}
+.accountLabel {
+  margin-top: 5px;
+}
+.radioLabel {
+  display: inline;
+  margin: 0px 5px;
+}
+input[type='text'],
+input[type='email'],
+input[type='password'],
+.donationFreq {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  font-size: 1.5rem;
+  padding: 5px 0px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: column;
+}
+.donateBtn {
+  margin: 15px 0px;
+}
+.payment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.paymentMethod {
+  font-size: 2rem;
+  width: 80%;
+  justify-content: center;
+}
+.paymentMethod__icons {
+  margin: 5px 15px;
+}
+.paymentIcon {
+  font-size: 3rem;
+}
+.donateComplete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+.donationThanks {
+  vertical-align: center;
+  text-align: center;
+}
+
+@media (max-width: 1200px) /*Desktop*/ {
+}
+
+@media (max-width: 991px) /*Tablet*/ {
+}
+
+@media (max-width: 767px) /*Mobile*/ {
+}

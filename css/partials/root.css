@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: lightcyan;
+}
+
+.headerDonateBTN,
+.addToDonate,
+.headerLoginBTN {
+  height: 50px;
+  width: 120px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+}
+.accountBtn,
+.calculateBtn,
+.donateBtn,
+.submitBtn {
+  height: 75px;
+  width: 200px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  padding: 0px 5px;
+}
+
+.headerDonateBTN {
+  background-color: darkred;
+  color: white;
+  border: lightblue 2px none;
+}
+.headerDonateBTN:hover {
+  background-color: white;
+  color: darkred;
+  border: darkred 3px solid;
+}
+
+.headerLoginBTN {
+  background-color: white;
+  color: darkred;
+  border: darkred 3px solid;
+}
+.headerLoginBTN:hover,
+.accountBtn:hover {
+  background-color: darkred;
+  color: white;
+  border: lightblue 2px none;
+}
+
+.addToDonate {
+  background-color: darkred;
+  color: white;
+  border: lightblue 2px none;
+}
+
+.addToDonate:hover,
+.accountBtn:hover {
+  background-color: white;
+  color: darkred;
+  border: darkred 3px solid;
+}
+.accountBtn,
+.calculateBtn,
+.submitBtn {
+  background-color: white;
+  color: darkred;
+  border: darkred 3px solid;
+}
+.accountBtn:hover,
+.calculateBtn:hover,
+.submitBtn:hover {
+  background-color: darkred;
+  color: white;
+  border: darkred 3px solid;
+}
+.submitBtn {
+  margin-top: 15px;
+  align-self: center;
+}
+
+.accountBtn {
+  margin-top: 15px;
+}
+.donateBtn {
+  background-color: darkred;
+  color: white;
+  border: darkred 3px solid;
+}
+.donateBtn:hover {
+  background-color: white;
+  color: darkred;
+  border: darkred 3px solid;
+}
+
+.loading {
+  margin-top: 15px;
+}

@@ -1,0 +1,35 @@
+.danger {
+  background-color: rgb(255 124 124);
+  color: black;
+  border: solid 1px red;
+  transition: 0.5s;
+}
+
+.success {
+  background-color: rgb(148, 247, 139);
+  color: black;
+  padding: 15px;
+  transition: 2s;
+  width: 900px;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  margin-top: 15px;
+}
+
+.warning {
+  background-color: rgb(255, 200, 80);
+  color: black;
+  border: solid 1px orange;
+  padding: 20px;
+  transition: 2s;
+}
+
+.information {
+  background-color: rgb(108, 238, 255);
+  color: black;
+  border: solid 1px blue;
+  padding: 20px;
+  transition: 2s;
+}

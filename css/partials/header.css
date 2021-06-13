@@ -1,0 +1,57 @@
+header {
+  height: 75px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  border-radius: 0px 0px 150px 150px;
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+  margin: auto;
+}
+.headerRight,
+.headerLeft {
+  display: flex;
+  align-items: center;
+  margin: 0% 6%;
+}
+.logo {
+  background-image: url(/favicon-32x32.png);
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+.logo:hover {
+  box-shadow: 5px 5px 5px rgb(136, 136, 136);
+}
+
+.navUL {
+  display: flex;
+}
+.navUL__li {
+  list-style: none;
+  margin: 0px 5px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.navUL__li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.navUL__li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) /*Desktop*/ {
+  header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) /*Tablet*/ {
+}
+
+@media (max-width: 767px) /*Mobile*/ {
+}
